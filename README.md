@@ -22,6 +22,7 @@ Sudoku Solver displays a 9x9 text entry grid for the user to type in a puzzle. A
 
 Load from Clipboard will load a puzzle from the clipboard. Clipboard must be a 9x9 block of plain text, with the numbers 0-9, e.g.: 
 
+```
 004700000
 003080604
 600030000
@@ -31,7 +32,8 @@ Load from Clipboard will load a puzzle from the clipboard. Clipboard must be a 9
 000050007
 508010200
 000009500
-(this does not display properly on GitHub, it should be 9 lines of 9 digits)
+```
+
 
 Once imported, user can:
   click one of the Solve buttons (logic and brute force [try all possible combinations] are available)
