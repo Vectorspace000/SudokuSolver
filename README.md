@@ -13,7 +13,7 @@ I did a few, including a very basic Swing GUI learning (which went as far as a w
 
 I wanted something meatier I could sink my teeth into. A long time ago I wrote a simple text based sudoku puzzle solver in Matlab, so I decided to try and build a GUI solver.
 
-I did, and here it is. Writen almost entirely using notepad++, once it was finished I imported it into a Netbeans project to do a bit of neatening and to upload here.
+I did, and here it is. Written almost entirely using notepad++, once it was finished I imported it into a NetBeans project (this is also my first NetBeans project) to do a bit of neatening and to upload here.
 
 ============================================
 About
@@ -38,7 +38,7 @@ Once imported, user can:
   click the buttons to apply any of the individual solution methods provided, and update the grid accordingly:
     methods:
       set values based on possibilities
-      or remove poossibilities based on logic patterns.
+      or remove possibilities based on logic patterns.
     Each method button has a tooltip describing it
     When a value is added, it is initially red to indicate just changed, and semitransparent so the underlying possibilities can be seen. On the next operation onwards it is the standard black on white
     When a possibility is removed, it is initially red and struck through to indicate just removed. On the next operation onwards it is the standard black on white
@@ -47,7 +47,7 @@ A log panel displays information for each action taken, such as number of values
 
 Highlight controls allow one or more numbers to be highlighted, to make patterns more visible. This is actually accomplished by dimming all other numbers
 
-Thgere are also buttons to Clear Grid to allow re-input, Clear Log, Load Previous Grid (if used on first run this will load a default puzzle) and Copy to Clipboard the current state of values (in the same format as load from clipboard requires)
+There are also buttons to Clear Grid to allow re-input, Clear Log, Load Previous Grid (if used on first run this will load a default puzzle) and Copy to Clipboard the current state of values (in the same format as load from clipboard requires)
 
 I know I have not used proper Sudoku terminology, but that is because I don't know the proper terminology. This is just how I have always known them.
 
