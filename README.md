@@ -26,7 +26,6 @@ Load From Clipboard will load a puzzle from the clipboard. Clipboard must be a 9
 000050007
 508010200
 000009500
-
 (this does not display properly on GitHub, it should be 9 lines of 9 digits)
 
 Once imported, user can:
