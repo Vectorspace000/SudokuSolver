@@ -1,5 +1,8 @@
 # SudokuSolver
-Sudoku solver
+Sudoku Solver
+
+============================================
+Background
 
 I have spend 8 years working as an RPGLE developer on IBM iSeries. Now I'm being made redundant, and RPGLE is not a commonly required skill, so employment options are scarce.
 So I figured, why not try and retrain as a Java developer?
@@ -12,10 +15,12 @@ I wanted something meatier I could sink my teeth into. A long time ago I wrote a
 
 I did, and here it is. Writen almost entirely using notepad++, once it was finished I imported it into a Netbeans project to do a bit of neatening and to upload here.
 
+============================================
+About
 
 Sudoku Solver displays a 9x9 text entry grid for the user to type in a puzzle. Arrow keys will navigate between cells, typing in a cell auto moves focus to the next cell. Load button will import the entered puzzle, and for each blank cell will display a 9x9 grid of the available possibilities for that cell
 
-Load From Clipboard will load a puzzle from the clipboard. Clipboard must be a 9x9 block of plain text, with the numbers 0-9, e.g.: 
+Load from Clipboard will load a puzzle from the clipboard. Clipboard must be a 9x9 block of plain text, with the numbers 0-9, e.g.: 
 
 004700000
 003080604
@@ -42,7 +47,7 @@ A log panel displays information for each action taken, such as number of values
 
 Highlight controls allow one or more numbers to be highlighted, to make patterns more visible. This is actually accomplished by dimming all other numbers
 
-Thgere are also buttons to clear the grid to allow re-input, clear the log, reload the previous grid (if used on first run this will load a default puzzle) and copy the current state of values to the clipboard (in the same format as load from clipboard requires)
+Thgere are also buttons to Clear Grid to allow re-input, Clear Log, Load Previous Grid (if used on first run this will load a default puzzle) and Copy to Clipboard the current state of values (in the same format as load from clipboard requires)
 
 I know I have not used proper Sudoku terminology, but that is because I don't know the proper terminology. This is just how I have always known them.
 
