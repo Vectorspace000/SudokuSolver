@@ -1,0 +1,13 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Sudoku Solver
+${licensePrefix}Author:    Jamie Speed
+${licensePrefix}Date:      ${date?date?string("yyyy-MM-dd")}
+${licensePrefix}Description:
+${licensePrefix}I wanted to teach myself Java, so I built this.
+${licensePrefix}This is a Sudoku Solving tool. The user can input a Sudoku puzzle and apply various solutions to it to see the results.
+${licensePrefix}It also supports solving the whole puzzle, using logical solutions or brute force recursion.
+<#if licenseLast??>
+${licenseLast}
+</#if>
