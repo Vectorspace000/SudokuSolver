@@ -22,7 +22,7 @@ import javax.swing.text.*;
 /***********************************************************************
 * class LogTextArea
 * 
-* JTextArea to hold
+* JTextArea to hold the activity log
 * 
 ***********************************************************************/
 public class LogTextArea
@@ -33,7 +33,8 @@ public class LogTextArea
 	LogTextArea()
 	{
 		Font defaultFont = log.getFont();
-		log.setFont(new Font("Courier New",defaultFont.getStyle(), defaultFont.getSize()));
+		//log.setFont(new Font("Courier New",defaultFont.getStyle(), defaultFont.getSize()));
+		log.setFont(new Font(Font.MONOSPACED,defaultFont.getStyle(), defaultFont.getSize()));
 		log.setEditable(false);
 		log.setLineWrap(true);
 		log.setWrapStyleWord(true);
